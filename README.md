@@ -34,7 +34,7 @@ After installing **Arch Linux** follow these steps:
 2. Clone this repository:
 
    ```
-   git clone https://gitlab.com/edu-barelyhere/arch-setup.git
+   git clone https://github.com/barelyhere-edu/arch-setup.git
    ```
 
 3. Change into the directory:
