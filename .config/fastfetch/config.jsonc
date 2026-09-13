@@ -70,27 +70,27 @@
 		{
 			"type": "host",																								// Print your computer's product name
 			"key": "󰌢 ",
-			"keyColor": "green"
+			"keyColor": "blue"
 		},
 		{
 			"type": "cpu",																								// Print CPU name, frequency, etc.
 			"key": "󰻠 ",
-			"keyColor": "green"
+			"keyColor": "blue"
 		},
 		{
 			"type": "gpu",																								// Print GPU names, memory sizes, types, etc
 			"key": "󰍹 ",
-			"keyColor": "green"
+			"keyColor": "blue"
 		},
 		{
 			"type": "memory",																							// Print system memory usage information
 			"key": "󰑭 ",
-			"keyColor": "green"
+			"keyColor": "blue"
 		},
 		{
 			"type": "disk",																								// Print partitions, space usage, file system, etc
 			"key": "󰋊 ",
-			"keyColor": "green"
+			"keyColor": "blue"
 		}
 	]
 }
