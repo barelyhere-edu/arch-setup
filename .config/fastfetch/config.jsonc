@@ -1,0 +1,96 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+// DISPLAY CONFIG
+/*
+  "display": {
+    "separator": ":  ",																							// Separator between keys and values
+    "key": {
+      "width": 4
+    },
+    "color": {
+      "keys": "magenta",																						// Key color
+      "title": "blue"																								// Title color
+    }
+  },
+*/
+
+// LOGO CONFIG
+
+	"logo": {																													// Query built-in logo for JSON output
+    "type": "small",        																				// Logo type: auto, builtin, small, file, etc.
+    "source": "arch",      																					// Built-in logo name or file path
+    //"width": 65,           																				// Width in characters
+    //"height": 35,          																				// Height in characters
+    "padding": {
+        "top": 5,          																					// Top padding
+        "left": 5,         																					// Left padding
+        "right": 5         																					// Right padding
+    },
+    "color": {             																					// Override logo colors
+        "1": "magenta",
+        "2": "blue"
+    }
+	},
+
+// MODULES CONFIG
+
+	"modules": [
+    "title",																												// Print the title, user and hostname
+    "separator",																										// Print a separator line
+
+		{
+			"type": "os",																									// Print the OS / Linux distro name and version
+			"key": " ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "kernel",																							// Print system kernel version
+			"key": "󰌽 ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "bios",																								// Print first-stage bootloader information (name, version, release date, etc.)
+			"key": "󰖡 ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "packages",																						// List installed package managers and count of installed packages
+			"key": "󰏗 ",
+			"keyColor": "magenta"
+		},
+		{
+			"type": "shell",																							// Print the current shell name and version
+			"key": "󰞷 ",
+			"keyColor": "magenta"
+		},
+
+		"break",																												// Print an empty line
+
+		{
+			"type": "host",																								// Print your computer's product name
+			"key": "󰌢 ",
+			"keyColor": "green"
+		},
+		{
+			"type": "cpu",																								// Print CPU name, frequency, etc.
+			"key": "󰻠 ",
+			"keyColor": "green"
+		},
+		{
+			"type": "gpu",																								// Print GPU names, memory sizes, types, etc
+			"key": "󰍹 ",
+			"keyColor": "green"
+		},
+		{
+			"type": "memory",																							// Print system memory usage information
+			"key": "󰑭 ",
+			"keyColor": "green"
+		},
+		{
+			"type": "disk",																								// Print partitions, space usage, file system, etc
+			"key": "󰋊 ",
+			"keyColor": "green"
+		}
+	]
+}
